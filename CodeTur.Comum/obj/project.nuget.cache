@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Eqhi/GLinUiH49T+QYvMsvx2TVvtS5693SgL1busV+cqxJH/oifCONWzEyrGW4HjR6cXIkj4cS/rqoMzI7EQ0w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Lucca\\source\\repos\\CodeTur-API\\CodeTur\\CodeTur.Comum\\CodeTur.Comum.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Lucca\\.nuget\\packages\\flunt\\1.0.5\\flunt.1.0.5.nupkg.sha512"
+  ],
+  "logs": []
+}
