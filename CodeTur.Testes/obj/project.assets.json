@@ -3590,19 +3590,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Lucca\\.nuget\\packages\\": {}
+    "C:\\Users\\45923499894\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Lucca\\source\\repos\\CodeTur-API\\CodeTur\\CodeTur.Testes\\CodeTur.Testes.csproj",
+      "projectUniqueName": "C:\\Users\\45923499894\\Documents\\CodeTur\\CodeTur.Testes\\CodeTur.Testes.csproj",
       "projectName": "CodeTur.Testes",
-      "projectPath": "C:\\Users\\Lucca\\source\\repos\\CodeTur-API\\CodeTur\\CodeTur.Testes\\CodeTur.Testes.csproj",
-      "packagesPath": "C:\\Users\\Lucca\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Lucca\\source\\repos\\CodeTur-API\\CodeTur\\CodeTur.Testes\\obj\\",
+      "projectPath": "C:\\Users\\45923499894\\Documents\\CodeTur\\CodeTur.Testes\\CodeTur.Testes.csproj",
+      "packagesPath": "C:\\Users\\45923499894\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\45923499894\\Documents\\CodeTur\\CodeTur.Testes\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Lucca\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\45923499894\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3616,8 +3616,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Lucca\\source\\repos\\CodeTur-API\\CodeTur\\CodeTur.Dominio\\CodeTur.Dominio.csproj": {
-              "projectPath": "C:\\Users\\Lucca\\source\\repos\\CodeTur-API\\CodeTur\\CodeTur.Dominio\\CodeTur.Dominio.csproj"
+            "C:\\Users\\45923499894\\Documents\\CodeTur\\CodeTur.Dominio\\CodeTur.Dominio.csproj": {
+              "projectPath": "C:\\Users\\45923499894\\Documents\\CodeTur\\CodeTur.Dominio\\CodeTur.Dominio.csproj"
             }
           }
         }

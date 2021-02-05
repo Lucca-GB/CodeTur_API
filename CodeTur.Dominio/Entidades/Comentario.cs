@@ -9,20 +9,23 @@ namespace CodeTur.Dominio.Entidades
 {
     class Comentario : Entidade
     {
-        public Comentario(string texto, string sentimento, Guid idUsuario, EnStatusComentario status, Guid idPacotes)
+        public Comentario(string texto, string sentimento, Guid idUsuario, Guid idPacote, EnStatusComentario status)
         {
             AddNotifications(new Contract()
                 .Requires()
-                .IsNotNullOrEmpty(Texto, "Texto", "")
-                .IsNotNullOrEmpty(Sentimento, "Sentimento", "")
-                .AreNotEquals(IdUsuario, Guid.Empty, "IdUsuario", "")
-                .AreNotEquals(IdPacote, Guid.Empty, "IdPacote", "")
+                .IsNotNullOrEmpty(Texto, "Texto", "Informe o Texto do comentário")
+                .IsNotNullOrEmpty(Sentimento, "Sentimento", "Informe o sentimento do comentário")
+                .AreNotEquals(IdUsuario, Guid.Empty, "IdUsuario", "Informe o Id do Usuário do comentário")
+                .AreNotEquals(IdPacote, Guid.Empty, "IdPacote", "Informe o Id do Pacote do comentário")
                 );
+            if(Valid)
+            { 
             Texto = texto;
             Sentimento = sentimento;
             IdUsuario = idUsuario;
-            IdPacote = idPacotes;
+            IdPacote = idPacote;
             Status = status;
+            }
         }
 
         public string Texto { get; private set; }
@@ -32,5 +35,17 @@ namespace CodeTur.Dominio.Entidades
         public virtual Usuario Usuario { get; private set; }
         public Guid IdPacote { get; private set; }
         public virtual Pacote Pacote { get; private set; }
+        public void AlterarStatus(EnStatusComentario status)
+        {
+            Status = status;
+        }
+        public void AlteraTexto(string texto)
+        {
+            Texto = texto;
+        }
+        public void AlteraSentimento(string sentimento)
+        {
+            Sentimento = sentimento;
+        }
     }
 }

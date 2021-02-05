@@ -33,19 +33,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Lucca\\.nuget\\packages\\": {}
+    "C:\\Users\\45923499894\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Lucca\\source\\repos\\CodeTur-API\\CodeTur\\CodeTur.Comum\\CodeTur.Comum.csproj",
+      "projectUniqueName": "C:\\Users\\45923499894\\Documents\\CodeTur\\CodeTur.Comum\\CodeTur.Comum.csproj",
       "projectName": "CodeTur.Comum",
-      "projectPath": "C:\\Users\\Lucca\\source\\repos\\CodeTur-API\\CodeTur\\CodeTur.Comum\\CodeTur.Comum.csproj",
-      "packagesPath": "C:\\Users\\Lucca\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Lucca\\source\\repos\\CodeTur-API\\CodeTur\\CodeTur.Comum\\obj\\",
+      "projectPath": "C:\\Users\\45923499894\\Documents\\CodeTur\\CodeTur.Comum\\CodeTur.Comum.csproj",
+      "packagesPath": "C:\\Users\\45923499894\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\45923499894\\Documents\\CodeTur\\CodeTur.Comum\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Lucca\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\45923499894\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

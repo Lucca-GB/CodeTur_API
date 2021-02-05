@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "7u3okPz77FJo3SHcebYPcHf5iR0jFkIxqK5Gv4+0HFjdV9kUt35thhVdO/m3gzpott9BxbEtAIphlg1OVR8XzQ==",
+  "dgSpecHash": "cog4oE96Jdjo+aeHS4PXYace/lzrd/qbWcNUwic6f7pxm7apOAzh8oDmTrjmmkWsaHLkdFEg6FCMlzL8c9zLgw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Lucca\\source\\repos\\CodeTur-API\\CodeTur\\CodeTur.Dominio\\CodeTur.Dominio.csproj",
+  "projectFilePath": "C:\\Users\\45923499894\\Documents\\CodeTur\\CodeTur.Dominio\\CodeTur.Dominio.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Lucca\\.nuget\\packages\\flunt\\1.0.5\\flunt.1.0.5.nupkg.sha512",
-    "C:\\Users\\Lucca\\.nuget\\packages\\flunt.br\\1.4.0\\flunt.br.1.4.0.nupkg.sha512"
+    "C:\\Users\\45923499894\\.nuget\\packages\\flunt\\1.0.5\\flunt.1.0.5.nupkg.sha512",
+    "C:\\Users\\45923499894\\.nuget\\packages\\flunt.br\\1.4.0\\flunt.br.1.4.0.nupkg.sha512"
   ],
   "logs": []
 }

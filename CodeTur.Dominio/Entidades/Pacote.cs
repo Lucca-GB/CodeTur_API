@@ -1,4 +1,5 @@
 ﻿using CodeTur.Comum.Entidades;
+using Flunt.Validations;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,9 +9,18 @@ namespace CodeTur.Dominio.Entidades
 {
     class Pacote : Entidade
     {
-        private readonly List<Comentario> _comentarios;
+        private readonly IList<Comentario> _comentarios;
 
-        public Pacote(string titulo, string descricao, string imagem, bool ativo);
+        public Pacote(string titulo, string descricao, string imagem, bool ativo)
+        {
+            AddNotifications(new Contract()
+                .Requires()
+                .IsNotNullOrEmpty(titulo, "Titulo", "Informe o titulo do pacote")
+                .IsNotNullOrEmpty(descricao, "Descricao", "Informe a descricao do pacote")
+                .IsNotNullOrEmpty(imagem, "Imagem", "Informe a imamgem do pacote")
+                );
+        }
+
 
         public string Titulo { get; private set; }
         public string Descricao { get; private set; }
@@ -30,17 +40,27 @@ namespace CodeTur.Dominio.Entidades
         {
             Ativo = true;
         }
-        public void DesativarPacote()
-        {
-            
-        }
         public void AtualizarPacote(string titulo, string descricao)
         {
-
+            AddNotifications(new Contract()
+                .Requires()
+                .IsNotNullOrEmpty(titulo, "Titulo", "Informeo o titulo do pacote")
+                .IsEmailOrEmpty(descricao, "Descricao", "Informe a Descricao do pacote")
+                );
+            if(Valid)
+            {
+                Titulo = titulo;
+                Descricao = descricao;
+            }
         }
         public void AtualizarImagem(string imagem)
         {
-
+            AddNotifications(new Contract()
+                .Requires()
+                .IsNotNullOrEmpty(imagem, "Imagem", "")
+                );
+            if (Valid)
+                Imagem = imagem;
         }
     }
 }

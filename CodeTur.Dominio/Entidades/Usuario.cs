@@ -28,10 +28,7 @@ namespace CodeTur.Dominio.Entidades
                 this.Senha = senha;
                 TipoUsuario = tipoUsuario;
             }
-            Nome = nome;
-            Email = email;
-            this.Senha = senha;
-            TipoUsuario = tipoUsuario;
+
         }
 
         public string Nome { get; private set; }

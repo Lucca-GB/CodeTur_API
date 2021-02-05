@@ -16,6 +16,5 @@ namespace CodeTur.Comum.Entidades
         public Guid Id { get; set; }
         public DateTime DataCriacao { get; set; }
         public DateTime DataAlteracao { get; set; }
-        public IReadOnlyCollection<Comentario> Comentarios { get; set; }
     }
 }
