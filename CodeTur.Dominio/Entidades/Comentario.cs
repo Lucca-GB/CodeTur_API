@@ -7,7 +7,7 @@ using System.Text;
 
 namespace CodeTur.Dominio.Entidades
 {
-    class Comentario : Entidade
+    public class Comentario : Entidade
     {
         public Comentario(string texto, string sentimento, Guid idUsuario, Guid idPacote, EnStatusComentario status)
         {

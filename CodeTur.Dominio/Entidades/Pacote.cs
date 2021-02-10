@@ -7,7 +7,7 @@ using System.Text;
 
 namespace CodeTur.Dominio.Entidades
 {
-    class Pacote : Entidade
+    public class Pacote : Entidade
     {
         private readonly IList<Comentario> _comentarios;
 
@@ -19,6 +19,14 @@ namespace CodeTur.Dominio.Entidades
                 .IsNotNullOrEmpty(descricao, "Descricao", "Informe a descricao do pacote")
                 .IsNotNullOrEmpty(imagem, "Imagem", "Informe a imamgem do pacote")
                 );
+            if (Valid)
+            {
+                Titulo = titulo;
+                Descricao = descricao;
+                Imagem = imagem;
+                Ativo = ativo;
+                _comentarios = new List<Comentario>();
+            }
         }
 
 
@@ -39,6 +47,10 @@ namespace CodeTur.Dominio.Entidades
         public void AtivarPacote()
         {
             Ativo = true;
+        }
+        public void DesativarPacote()
+        {
+            Ativo = false;
         }
         public void AtualizarPacote(string titulo, string descricao)
         {

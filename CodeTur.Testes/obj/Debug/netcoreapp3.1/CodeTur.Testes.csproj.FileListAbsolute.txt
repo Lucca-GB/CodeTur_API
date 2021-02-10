@@ -100,3 +100,9 @@ C:\Users\Lucca\source\repos\CodeTur-API\CodeTur\CodeTur.Testes\obj\Debug\netcore
 C:\Users\Lucca\source\repos\CodeTur-API\CodeTur\CodeTur.Testes\obj\Debug\netcoreapp3.1\CodeTur.Testes.pdb
 C:\Users\Lucca\source\repos\CodeTur-API\CodeTur\CodeTur.Testes\obj\Debug\netcoreapp3.1\CodeTur.Testes.genruntimeconfig.cache
 C:\Users\Lucca\source\repos\CodeTur-API\CodeTur\CodeTur.Testes\bin\Debug\netcoreapp3.1\Flunt.Br.dll
+C:\Users\45923499894\Documents\CodeTur\CodeTur.Testes\obj\Debug\netcoreapp3.1\CodeTur.Testes.csprojAssemblyReference.cache
+C:\Users\45923499894\Documents\CodeTur\CodeTur.Testes\obj\Debug\netcoreapp3.1\CodeTur.Testes.AssemblyInfoInputs.cache
+C:\Users\45923499894\Documents\CodeTur\CodeTur.Testes\obj\Debug\netcoreapp3.1\CodeTur.Testes.AssemblyInfo.cs
+C:\Users\45923499894\Documents\CodeTur\CodeTur.Testes\obj\Debug\netcoreapp3.1\CodeTur.Testes.csproj.CoreCompileInputs.cache
+C:\Users\45923499894\Documents\CodeTur\CodeTur.Testes\obj\Debug\netcoreapp3.1\CodeTur.Testes.dll
+C:\Users\45923499894\Documents\CodeTur\CodeTur.Testes\obj\Debug\netcoreapp3.1\CodeTur.Testes.pdb

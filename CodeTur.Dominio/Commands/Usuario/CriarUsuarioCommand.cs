@@ -8,9 +8,13 @@ using System.Text;
 
 namespace CodeTur.Dominio.Commands.Usuario
 {
-    public class CriarContaCommand : Notifiable, ICommand
+    public class CriarUsuarioCommand : Notifiable, ICommand
     {
-        public CriarContaCommand(string nome, string email, string senha, string telefone, EnTipoUsuario tipoUsuario)
+        public CriarUsuarioCommand()
+        {
+
+        }
+        public CriarUsuarioCommand(string nome, string email, string senha, string telefone, EnTipoUsuario tipoUsuario)
         {
             Nome = nome;
             Email = email;
