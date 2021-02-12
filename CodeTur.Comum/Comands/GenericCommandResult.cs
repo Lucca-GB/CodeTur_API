@@ -4,7 +4,7 @@ using System.Text;
 
 namespace CodeTur.Comum.Comands
 {
-    public class GenericCommandResult
+    public class GenericCommandResult : ICommandResult
     {
         public GenericCommandResult(bool sucesso, string mensagem, object data)
         {

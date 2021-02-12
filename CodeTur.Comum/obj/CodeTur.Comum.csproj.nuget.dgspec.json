@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\45923499894\\Documents\\CodeTur\\CodeTur.Comum\\CodeTur.Comum.csproj": {}
+    "C:\\Users\\Lucca\\Desktop\\CodeTur\\API\\CodeTur_API\\CodeTur.Comum\\CodeTur.Comum.csproj": {}
   },
   "projects": {
-    "C:\\Users\\45923499894\\Documents\\CodeTur\\CodeTur.Comum\\CodeTur.Comum.csproj": {
+    "C:\\Users\\Lucca\\Desktop\\CodeTur\\API\\CodeTur_API\\CodeTur.Comum\\CodeTur.Comum.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\45923499894\\Documents\\CodeTur\\CodeTur.Comum\\CodeTur.Comum.csproj",
+        "projectUniqueName": "C:\\Users\\Lucca\\Desktop\\CodeTur\\API\\CodeTur_API\\CodeTur.Comum\\CodeTur.Comum.csproj",
         "projectName": "CodeTur.Comum",
-        "projectPath": "C:\\Users\\45923499894\\Documents\\CodeTur\\CodeTur.Comum\\CodeTur.Comum.csproj",
-        "packagesPath": "C:\\Users\\45923499894\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\45923499894\\Documents\\CodeTur\\CodeTur.Comum\\obj\\",
+        "projectPath": "C:\\Users\\Lucca\\Desktop\\CodeTur\\API\\CodeTur_API\\CodeTur.Comum\\CodeTur.Comum.csproj",
+        "packagesPath": "C:\\Users\\Lucca\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Lucca\\Desktop\\CodeTur\\API\\CodeTur_API\\CodeTur.Comum\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\45923499894\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Lucca\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -40,6 +40,10 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "BCrypt.Net-Core": {
+              "target": "Package",
+              "version": "[1.6.0, )"
+            },
             "Flunt": {
               "target": "Package",
               "version": "[1.0.5, )"
@@ -60,7 +64,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     }

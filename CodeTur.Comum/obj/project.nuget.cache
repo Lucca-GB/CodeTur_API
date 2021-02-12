@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "h9A55fAcOZDV5aU3/W+eolEg1V66NptRRHlQP0YBIdvtoCDicFAH4+sDo1YL0Oeo+nZjzaRogg9gcvH0OFtNgQ==",
+  "dgSpecHash": "MrJdhqp+7PvIWqO5m8aXTbG80LsNVIVywcxwfW4O+jA76oAt/WmT0JrktYQH5hAXBIYy1LOIhFHUUP/+auKMtw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\45923499894\\Documents\\CodeTur\\CodeTur.Comum\\CodeTur.Comum.csproj",
+  "projectFilePath": "C:\\Users\\Lucca\\Desktop\\CodeTur\\API\\CodeTur_API\\CodeTur.Comum\\CodeTur.Comum.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\45923499894\\.nuget\\packages\\flunt\\1.0.5\\flunt.1.0.5.nupkg.sha512"
+    "C:\\Users\\Lucca\\.nuget\\packages\\bcrypt.net-core\\1.6.0\\bcrypt.net-core.1.6.0.nupkg.sha512",
+    "C:\\Users\\Lucca\\.nuget\\packages\\flunt\\1.0.5\\flunt.1.0.5.nupkg.sha512"
   ],
   "logs": []
 }

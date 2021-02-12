@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
+      "BCrypt.Net-Core/1.6.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/BCrypt.Net-Core.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/BCrypt.Net-Core.dll": {}
+        }
+      },
       "coverlet.collector/1.2.0": {
         "type": "package",
         "build": {
@@ -927,6 +936,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
+          "BCrypt.Net-Core": "1.6.0",
           "Flunt": "1.0.5"
         },
         "compile": {
@@ -954,6 +964,29 @@
     }
   },
   "libraries": {
+    "BCrypt.Net-Core/1.6.0": {
+      "sha512": "hsKiHGjrnlDW05MzuzzlD9gNP8YOW2KbZ+FbvISrilsKJJ76tXKhWey6psZX5sd7DczNpSU2U6ldjPoblk8BLw==",
+      "type": "package",
+      "path": "bcrypt.net-core/1.6.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "bcrypt.net-core.1.6.0.nupkg.sha512",
+        "bcrypt.net-core.nuspec",
+        "lib/net40/BCrypt.Net-Core.dll",
+        "lib/net40/BCrypt.Net-Core.pdb",
+        "lib/net45/BCrypt.Net-Core.dll",
+        "lib/net45/BCrypt.Net-Core.pdb",
+        "lib/net451/BCrypt.Net-Core.dll",
+        "lib/net451/BCrypt.Net-Core.pdb",
+        "lib/net452/BCrypt.Net-Core.dll",
+        "lib/net452/BCrypt.Net-Core.pdb",
+        "lib/netstandard1.3/BCrypt.Net-Core.dll",
+        "lib/netstandard1.3/BCrypt.Net-Core.pdb",
+        "lib/netstandard2.0/BCrypt.Net-Core.dll",
+        "lib/netstandard2.0/BCrypt.Net-Core.pdb"
+      ]
+    },
     "coverlet.collector/1.2.0": {
       "sha512": "ZB+EGXsVBIn8cew7D3S2c+rgIlokKv1dSwsXEoiFQaNXF/BSxp9Rlfz/jV1ehSWH5XpLitfRxFNW3ok7uPDOXA==",
       "type": "package",
@@ -3590,19 +3623,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\45923499894\\.nuget\\packages\\": {}
+    "C:\\Users\\Lucca\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\45923499894\\Documents\\CodeTur\\CodeTur.Testes\\CodeTur.Testes.csproj",
+      "projectUniqueName": "C:\\Users\\Lucca\\Desktop\\CodeTur\\API\\CodeTur_API\\CodeTur.Testes\\CodeTur.Testes.csproj",
       "projectName": "CodeTur.Testes",
-      "projectPath": "C:\\Users\\45923499894\\Documents\\CodeTur\\CodeTur.Testes\\CodeTur.Testes.csproj",
-      "packagesPath": "C:\\Users\\45923499894\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\45923499894\\Documents\\CodeTur\\CodeTur.Testes\\obj\\",
+      "projectPath": "C:\\Users\\Lucca\\Desktop\\CodeTur\\API\\CodeTur_API\\CodeTur.Testes\\CodeTur.Testes.csproj",
+      "packagesPath": "C:\\Users\\Lucca\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Lucca\\Desktop\\CodeTur\\API\\CodeTur_API\\CodeTur.Testes\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\45923499894\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Lucca\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3616,8 +3649,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\45923499894\\Documents\\CodeTur\\CodeTur.Dominio\\CodeTur.Dominio.csproj": {
-              "projectPath": "C:\\Users\\45923499894\\Documents\\CodeTur\\CodeTur.Dominio\\CodeTur.Dominio.csproj"
+            "C:\\Users\\Lucca\\Desktop\\CodeTur\\API\\CodeTur_API\\CodeTur.Dominio\\CodeTur.Dominio.csproj": {
+              "projectPath": "C:\\Users\\Lucca\\Desktop\\CodeTur\\API\\CodeTur_API\\CodeTur.Dominio\\CodeTur.Dominio.csproj"
             }
           }
         }
@@ -3664,7 +3697,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
       }
     }
   }

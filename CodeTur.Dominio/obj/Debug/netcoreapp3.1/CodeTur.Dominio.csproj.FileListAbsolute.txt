@@ -16,3 +16,15 @@ C:\Users\45923499894\Documents\CodeTur\CodeTur.Dominio\obj\Debug\netcoreapp3.1\C
 C:\Users\45923499894\Documents\CodeTur\CodeTur.Dominio\obj\Debug\netcoreapp3.1\CodeTur.Dominio.csproj.CoreCompileInputs.cache
 C:\Users\45923499894\Documents\CodeTur\CodeTur.Dominio\obj\Debug\netcoreapp3.1\CodeTur.Dominio.dll
 C:\Users\45923499894\Documents\CodeTur\CodeTur.Dominio\obj\Debug\netcoreapp3.1\CodeTur.Dominio.pdb
+C:\Users\Lucca\Desktop\CodeTur\API\CodeTur_API\CodeTur.Dominio\bin\Debug\netcoreapp3.1\CodeTur.Dominio.deps.json
+C:\Users\Lucca\Desktop\CodeTur\API\CodeTur_API\CodeTur.Dominio\bin\Debug\netcoreapp3.1\CodeTur.Dominio.dll
+C:\Users\Lucca\Desktop\CodeTur\API\CodeTur_API\CodeTur.Dominio\bin\Debug\netcoreapp3.1\CodeTur.Dominio.pdb
+C:\Users\Lucca\Desktop\CodeTur\API\CodeTur_API\CodeTur.Dominio\bin\Debug\netcoreapp3.1\CodeTur.Comum.dll
+C:\Users\Lucca\Desktop\CodeTur\API\CodeTur_API\CodeTur.Dominio\bin\Debug\netcoreapp3.1\CodeTur.Comum.pdb
+C:\Users\Lucca\Desktop\CodeTur\API\CodeTur_API\CodeTur.Dominio\obj\Debug\netcoreapp3.1\CodeTur.Dominio.csprojAssemblyReference.cache
+C:\Users\Lucca\Desktop\CodeTur\API\CodeTur_API\CodeTur.Dominio\obj\Debug\netcoreapp3.1\CodeTur.Dominio.AssemblyInfoInputs.cache
+C:\Users\Lucca\Desktop\CodeTur\API\CodeTur_API\CodeTur.Dominio\obj\Debug\netcoreapp3.1\CodeTur.Dominio.AssemblyInfo.cs
+C:\Users\Lucca\Desktop\CodeTur\API\CodeTur_API\CodeTur.Dominio\obj\Debug\netcoreapp3.1\CodeTur.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\Lucca\Desktop\CodeTur\API\CodeTur_API\CodeTur.Dominio\obj\Debug\netcoreapp3.1\CodeTur.Dominio.csproj.CopyComplete
+C:\Users\Lucca\Desktop\CodeTur\API\CodeTur_API\CodeTur.Dominio\obj\Debug\netcoreapp3.1\CodeTur.Dominio.dll
+C:\Users\Lucca\Desktop\CodeTur\API\CodeTur_API\CodeTur.Dominio\obj\Debug\netcoreapp3.1\CodeTur.Dominio.pdb

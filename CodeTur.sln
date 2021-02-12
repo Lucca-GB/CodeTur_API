@@ -9,6 +9,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeTur.Testes", "CodeTur.T
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeTur.Dominio", "CodeTur.Dominio\CodeTur.Dominio.csproj", "{EE81FF17-C2FC-4DCE-B943-94942B1BD2B8}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeTur.Infra.Data", "CodeTur.Infra.Data\CodeTur.Infra.Data.csproj", "{2D3B9AEA-9DE0-4393-AAC0-853E7F2E1392}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeTur.Api", "CodeTur.Api\CodeTur.Api.csproj", "{B758B06C-0A5C-41B6-B899-AFAA4BEAC96C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{EE81FF17-C2FC-4DCE-B943-94942B1BD2B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EE81FF17-C2FC-4DCE-B943-94942B1BD2B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EE81FF17-C2FC-4DCE-B943-94942B1BD2B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D3B9AEA-9DE0-4393-AAC0-853E7F2E1392}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D3B9AEA-9DE0-4393-AAC0-853E7F2E1392}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D3B9AEA-9DE0-4393-AAC0-853E7F2E1392}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D3B9AEA-9DE0-4393-AAC0-853E7F2E1392}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B758B06C-0A5C-41B6-B899-AFAA4BEAC96C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B758B06C-0A5C-41B6-B899-AFAA4BEAC96C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B758B06C-0A5C-41B6-B899-AFAA4BEAC96C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B758B06C-0A5C-41B6-B899-AFAA4BEAC96C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

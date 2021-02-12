@@ -18,7 +18,6 @@ namespace CodeTur.Dominio.Entidades
                 .HasMaxLen(nome, 40, "Nome", "O nome deve ter no maximo 40 caracteres")
                 .IsEmail(email, "Email", "Informe um e-mail válido")
                 .HasMinLen(senha, 6, "Senha", "A senha deve ter pelo menos 6 caracteres")
-                .HasMaxLen(senha, 12, "Senha", "A senha deve ter no maximo 12 caracteres")
         );
 
             if (Valid)
@@ -36,6 +35,8 @@ namespace CodeTur.Dominio.Entidades
         public string Senha { get; private set; }
         public string Telefone { get; private set; }
         public EnTipoUsuario TipoUsuario { get; private set; }
+        public IReadOnlyCollection<Comentario> Comentarios { get; set; }
+
 
         public void AdicionarTelefone(string telefone)
         {

@@ -2,9 +2,6 @@
 using CodeTur.Comum.Enum;
 using Flunt.Notifications;
 using Flunt.Validations;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace CodeTur.Dominio.Commands.Usuario
 {
@@ -36,7 +33,6 @@ namespace CodeTur.Dominio.Commands.Usuario
                             .HasMaxLen(Nome, 40, "Nome", "O nome deve ter no maximo 40 caracteres")
                             .IsEmail(Email, "Email", "Informe um e-mail válido")
                             .HasMinLen(Senha, 6, "Senha", "A senha deve ter pelo menos 6 caracteres")
-                            .HasMaxLen(Senha, 12, "Senha", "A senha deve ter no maximo 12 caracteres")
                     );
         }
     }
