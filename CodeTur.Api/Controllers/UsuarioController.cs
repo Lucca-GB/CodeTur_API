@@ -21,12 +21,12 @@ namespace CodeTur.Api.Controllers
     {
         [Route("signup")]
         [HttpPost]
-        public GenericCommandResult SignUp(CriarUsuarioCommand command,
+        public GenericCommandResult Signup(CriarUsuarioCommand command,
                                             [FromServices]CriarUsuarioHandle handler)
         {
             return (GenericCommandResult)handler.Handle(command);
         }
-        [Route("signin")]
+        [Route("signin")] 
         [HttpPost]
         public GenericCommandResult Signin(LogarCommand command,
                                             [FromServices] LogarCommandHandle handler)

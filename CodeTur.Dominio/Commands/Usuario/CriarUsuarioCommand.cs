@@ -8,9 +8,10 @@ namespace CodeTur.Dominio.Commands.Usuario
     public class CriarUsuarioCommand : Notifiable, ICommand
     {
         public CriarUsuarioCommand()
-        {
+        { 
 
         }
+
         public CriarUsuarioCommand(string nome, string email, string senha, string telefone, EnTipoUsuario tipoUsuario)
         {
             Nome = nome;

@@ -16,7 +16,7 @@ namespace CodeTur.Api.Controllers
     public class PacoteController : ControllerBase
     {
         [HttpPost]
-        [Authorize(Roles = "Admin")]
+        //[Authorize(Roles = "Admin")]
         public GenericCommandResult Create(CriarPacoteCommand command,
                                             [FromServices] CriarPacoteCommandHandler handler)
         {

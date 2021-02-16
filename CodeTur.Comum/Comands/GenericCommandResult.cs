@@ -6,6 +6,7 @@ namespace CodeTur.Comum.Comands
 {
     public class GenericCommandResult : ICommandResult
     {
+        //classe criada para Padronizar os Resultados dos Command
         public GenericCommandResult(bool sucesso, string mensagem, object data)
         {
             Sucesso = sucesso;

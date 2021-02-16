@@ -208,3 +208,4 @@ C:\Users\Lucca\Desktop\CodeTur\API\CodeTur_API\CodeTur.Testes\obj\Debug\netcorea
 C:\Users\Lucca\Desktop\CodeTur\API\CodeTur_API\CodeTur.Testes\obj\Debug\netcoreapp3.1\CodeTur.Testes.dll
 C:\Users\Lucca\Desktop\CodeTur\API\CodeTur_API\CodeTur.Testes\obj\Debug\netcoreapp3.1\CodeTur.Testes.pdb
 C:\Users\Lucca\Desktop\CodeTur\API\CodeTur_API\CodeTur.Testes\obj\Debug\netcoreapp3.1\CodeTur.Testes.genruntimeconfig.cache
+C:\Users\Lucca\Desktop\CodeTur\API\CodeTur_API\CodeTur.Testes\bin\Debug\netcoreapp3.1\BCrypt.Net-Core.dll

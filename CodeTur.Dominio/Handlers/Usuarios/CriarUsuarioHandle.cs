@@ -18,32 +18,37 @@ namespace CodeTur.Dominio.Handlers.Usuarios
         public ICommandResult Handle(CriarUsuarioCommand command)
         {
             //Fail Fast Validation
-            //TODO : Validar command
+            //Validar command
             command.Validar();
 
             if (command.Invalid)
                 return new GenericCommandResult(false, "Dados inválidos", command.Notifications);
 
-            //TODO : Verifica Email Existe
+            //Verifica Email Existe
             var usuarioExiste = _usuarioRepositorio.BuscarPorEmail(command.Email);
 
             if(usuarioExiste != null)
                 return new GenericCommandResult(false, "Email já cadastrado", null);
 
-            //TODO : Criptografar Senha
+            //Criptografar Senha
             command.Senha = Senha.Criptografar(command.Senha);
 
-            //TODO : Salvar Usuário
+            //Cria instancia do usuario passando os parametros
             var usuario = new Usuario(command.Nome, command.Email, command.Senha, command.TipoUsuario);
-            if (!string.IsNullOrEmpty(command.Telefone))
+
+            //Se passou o telefone altera
+            if (!string.IsNullOrEmpty(command.Telefone)) 
                 usuario.AdicionarTelefone(command.Telefone);
 
+            //verifica se os dados do usuario sao validos
             if(usuario.Invalid)
                 return new GenericCommandResult(false, "Usuário inválido", usuario.Notifications);
 
+            _usuarioRepositorio.Adicionar(usuario);
 
-            //TODO : Enviar Email Boas Vinhas
-            return new GenericCommandResult(true, "Usuário Criado", null);
+
+            //Enviar Email Boas Vinhas
+            return new GenericCommandResult(true, "Usuário Criado", usuario);
         }
     }
 }

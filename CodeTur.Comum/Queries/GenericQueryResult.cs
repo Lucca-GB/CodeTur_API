@@ -15,6 +15,6 @@ namespace CodeTur.Comum.Queries
 
         public bool Sucesso { get; private set; }
         public string Mensagem { get; private set; }
-        public object Data { get; private set; }
+        public Object Data { get; private set; }
     }
 }

@@ -5,7 +5,7 @@ using System.Text;
 
 namespace CodeTur.Comum.Handlers
 {
-    public interface IHandlerQuery<T> where T :IQuery
+    public interface IHandlerQuery<T> where T : IQuery
     {
         IQueryResult Handle(T query);
     }

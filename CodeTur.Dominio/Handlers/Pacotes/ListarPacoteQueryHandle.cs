@@ -35,15 +35,15 @@ namespace CodeTur.Dominio.Handlers.Pacotes
                     }
                 );
 
-            //List<ListarPacoteQueryResult> IsPacotes = new List<ListarPacoteQueryResult>();
-            //foreach (var item in pacotes)
-            //{
-            //    var itemPacote = new ListarPacoteQueryResult();
-             //   itemPacote.Titulo = item.Titulo;
-             //   itemPacote.Id = item.Id;
+            List<ListarPacoteQueryResult> IsPacotes = new List<ListarPacoteQueryResult>();
+            foreach (var item in pacotes)
+            { 
+                var itemPacote = new ListarPacoteQueryResult();
+                itemPacote.Titulo = item.Titulo;
+                itemPacote.Id = item.Id;
 
-            //    IsPacotes.Add(itemPacote);
-           // }
+                IsPacotes.Add(itemPacote);
+           }
             return new GenericQueryResult(true, "Lista de Pacotes", retornoPacotes);
         }
     }
